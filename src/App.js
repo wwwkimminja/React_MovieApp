@@ -14,7 +14,7 @@ import {
 
 function App() {
   return (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path ="/movie/:id" element ={<Detail />}>
       </Route>
