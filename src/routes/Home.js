@@ -18,13 +18,13 @@ console.log(movies);
   return (
     <div>
       {loading ? (<h1>Loading...</h1>) : 
-      <div>
+      <div className="main">
         {movies.map((movie)=>(
           <Movie 
           id = {movie.id}
           coverImg = {movie.medium_cover_image}
           title={movie.title}
-          summary ={movie.summary}
+         // summary ={movie.summary}
           genres ={movie.genres}
           />
          

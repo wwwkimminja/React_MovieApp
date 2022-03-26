@@ -1,0 +1,39 @@
+header {
+    background-color: black;
+    padding:40px 15px;
+  padding-bottom:50px;
+}
+
+header h1 {
+    color: greenyellow;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .search  {
+    width: 95%;
+    position: relative;
+    top:-30px;
+    margin:0 auto;
+  }
+  
+  input {
+    width:100%;
+    border:none;
+    padding:15px 25px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+  }
+  
+  input::placeholder {
+    opacity: 0.7;
+  }
+  
+  .search i {
+    position: absolute;
+    top:15px;
+    right:20px;
+    color:rgba(0, 0, 0, 0.10);
+  }
+  

@@ -1,8 +1,8 @@
 
-import { useEffect,useState } from "react";
 import Movie from "./components/Movie";
 import Home from "./routes/Home";
 import Detail from "./routes/Detail";
+import Header from "./components/Header";
 
 import {
   BrowserRouter as Router,
@@ -14,7 +14,9 @@ import {
 
 function App() {
   return (
+
   <Router basename={process.env.PUBLIC_URL}>
+    <Header />
     <Routes>
       <Route path ="/movie/:id" element ={<Detail />}>
       </Route>
